@@ -3,13 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Моя первая HTML-страница</title>
-<style>
-   body {
-    background: #c7b39b url(images/bg.jpg); /C:\Users\_Family_\Desktop\nature-3041444_1280.jpg/
-    color: #fff; /black/
-   }
-  </style>
 	</head>
+<body style="background-image: background.jpg">
+ </body>
 	<body>
 		<h1>Мой первый заголовок</h1>
 		<p>Мой первый параграф</p>
