@@ -1,43 +1,37 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Моя первая HTML-страница</title
+		<title>Моя первая HTML-страница</title>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
+	<body>
 
-	<body>	
-		<h1>Мой первый заголовок</h1>
-		<p>Мой первый параграф</p>
-		<p> Текст к изображению</p>
-		<img src="zaton-tec-04.jpg">
-		<br><br>
-		<img src="photo1.jpg" align="left" width="480" height="319" />
-		<big>ТЭЦ</big>
-		<br>
-		<p>Тѐплоэлѐктроцентра́ль (ТЭЦ) — разновидность тепловой электростанции,<br> которая не только производит электроэнергию, но и является источником тепловой энергии в централизованных системах теплоснабжения (в виде пара и горячей воды, в том числе и для обеспечения горячего водоснабжения и отопления жилых и промышленных объектов).</p>
-		<body style="background-image: url(background.jpg); background-repeat: no-repeat; background-position: top center">
-		<div style="float: left; width: 49%;">Текст левой колонки</div><div style="float: right; width: 49%;">Текст правой колонки</div><div class="clear">
-		<br>
-		<br>
-		<div class="tab">
-  		  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  		  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  		  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  		</div>
+		<header>
 
-		<div id="London" class="tabcontent">
-  		  <h3>London</h3>
-  		  <p>London is the capital city of England.</p>
-		</div>
+				<img src="logotype.svg" alt="logo" class="logo">
 
-		<div id="Paris" class="tabcontent">
-  		  <h3>Paris</h3>
-  		  <p>Paris is the capital of France.</p>
-		</div>
+				<nav>
 
-		<div id="Tokyo" class="tabcontent">
-  		  <h3>Tokyo</h3>
-  		  <p>Tokyo is the capital of Japan.</p>
-		</div>
+					<ul class="nav_links">
+						<li>
+						<a href="#">Первый</a>
+						<ul class="s_links">
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+							<li><a href="#">Подпункт</a></li>
+				        </ul>
+
+				    </li>
+				    <li><a href="#">Второй</a></li>
+				    <li><a href="#">Третий</a></li>	    
+				</ul>
+
+			</nav>
+
+				<a href="#" class="contact"> <button>Контакт</button> </a>
+
+		</header>
+
 	</body>
 	</html>
